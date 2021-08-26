@@ -4,7 +4,7 @@ public class Starter extends JFrame {
 
 	public Starter()
 	{
-		add(new Board());
+		add(new SpaceInvaders());
 		setTitle("Board");
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(500,500);
@@ -14,6 +14,6 @@ public class Starter extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new Starter();
+		new SpaceInvaders();
 	}
 }

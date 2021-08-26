@@ -1,15 +1,38 @@
+import java.awt.Image;
 
 public class Alien extends Character{
-	boolean moveRight;
-	boolean moveLeft;
-	boolean isVisible;
+	private int leftPosition=0;
+	private int rightPosition=0;
+	private boolean hitState = false;
+	private Image alienImage;
 	
-	public Alien(int x, int y, int speed) { 
-		super(x,y,speed);
-		moveLeft=false;
-		moveRight=true;
-		isVisible=true;
+	SpaceInvaders spaceInvaders;
+	
+	public Alien(Image alienImage, SpaceInvaders spaceInvaders) { 
+		super(spaceInvaders);
+		this.alienImage=alienImage;
+		
+	}
+	
+	public boolean hasBeenHit() {
+		
 	}
 
+	public boolean hitAlien(int x,int y) {
+		
+	}
 	
+	public void setPosition() {
+		
+	}
+	public int getXPosition() {
+		
+	}
+	public int getYPosition() {
+		
+	}
+	
+	public void drawAlien(Graphics g) {
+		
+	}
 }

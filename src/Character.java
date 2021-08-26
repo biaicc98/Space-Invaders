@@ -1,18 +1,21 @@
 
 public class Character {
-
-	int x;
-	int y;
-	int speed;
+	public static final int height=25;
+	public static final int width=15;
+	private int heightPosition=0;
+	
 	
 	public Character() {
 		
 	}
-	
-	public Character(int x, int y, int speed) {
-		this.x=x;
-		this.y=y;
-		this.speed=speed;
+	public Character(SpaceInvaders spaceInvaders) {
+		
 	}
+	
+	
+	public int getHeightPosition() {
+		return heightPosition;
+	}
+
 	
 }
